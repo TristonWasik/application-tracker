@@ -1,4 +1,4 @@
-import { Sankey } from "./components/Sankey";
+import PieChartComponent from "./components/Pie";
 import ApplicationsTable from "./components/applications";
 import { ModeToggle } from "./components/mode-toggle";
 import { applications } from "./lib/applications";
@@ -16,7 +16,7 @@ function App() {
             <p className="font-semibold text-xl">Apps</p>
             <p className="font-light text-xs">5/31/24</p>
           </span>
-          <Sankey />
+          <PieChartComponent />
         </div>
         <ApplicationsTable />
       </main>

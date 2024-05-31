@@ -20,7 +20,7 @@ export type status =
  * From, To, Count
  */
 export type SankeyNode = [string, status, number | string];
-export type PieSlice = [status, number | string];
+export type PieSlice = [status, number];
 
 export const BuildDataFromApplications = (): {
   sankey: SankeyNode[];
@@ -44,12 +44,11 @@ export const BuildDataFromApplications = (): {
       ["Applied", "Assessment", Assessments],
     ],
     pie: [
-      ["Status", "Count"],
-      ["Interviewed", Interviews],
-      ["Rejected", Rejections],
       ["No Response", NoResponses],
-      ["Accepted", Accepted],
+      ["Rejected", Rejections],
       ["Assessment", Assessments],
+      ["Interviewed", Interviews],
+      ["Accepted", Accepted],
     ],
   };
 };
