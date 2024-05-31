@@ -3,13 +3,5 @@ import { BuildDataFromApplications } from "../lib/utils";
 
 export const Sankey = () => {
   const { sankey } = BuildDataFromApplications();
-  return (
-    <Chart
-      chartType="Sankey"
-      width="800px"
-      height="200px"
-      data={sankey}
-      legendToggle
-    />
-  );
+  return <Chart chartType="Sankey" width="800px" data={sankey} legendToggle />;
 };

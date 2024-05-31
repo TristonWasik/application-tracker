@@ -8,7 +8,7 @@ export default function Pie() {
     <Chart
       chartType="PieChart"
       data={pie}
-      options={{ title: "Applications" }}
+      options={{ title: "Applications", backgroundColor: "#09090b" }}
       width="400px"
       height="400px"
     />

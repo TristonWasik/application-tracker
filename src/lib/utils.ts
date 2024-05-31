@@ -11,6 +11,7 @@ export type status =
   | "Rejected"
   | "No Response"
   | "Interviewed"
+  | "Assessment"
   | "To"
   | "Status"
   | "Accepted";
@@ -31,6 +32,7 @@ export const BuildDataFromApplications = (): {
   const NoResponses = applications.filter(
     (f) => !f.acceptedAt && !f.interviewedAt && !f.rejectedAt
   ).length;
+  const Assessments = applications.filter((f) => !!f.assessmentAt).length;
 
   return {
     sankey: [
@@ -39,6 +41,7 @@ export const BuildDataFromApplications = (): {
       ["Applied", "Rejected", Rejections],
       ["Applied", "No Response", NoResponses],
       ["Applied", "Accepted", Accepted],
+      ["Applied", "Assessment", Assessments],
     ],
     pie: [
       ["Status", "Count"],
@@ -46,6 +49,7 @@ export const BuildDataFromApplications = (): {
       ["Rejected", Rejections],
       ["No Response", NoResponses],
       ["Accepted", Accepted],
+      ["Assessment", Assessments],
     ],
   };
 };
