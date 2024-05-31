@@ -16,7 +16,7 @@ export type Application = {
 export const applications: Application[] = [
   {
     name: "Honor",
-    foundAt: "commitasync.com",
+    foundAt: "commitasync",
     role: "Senior Software Engineer (Workforce)",
     website: "joinhonor.com",
     status: "Applied",
@@ -24,7 +24,7 @@ export const applications: Application[] = [
   },
   {
     name: "Foodsmart",
-    foundAt: "commitasync.com",
+    foundAt: "commitasync",
     role: "Senior Software Engineer",
     website: "foodsmart.com",
     status: "Applied",
@@ -32,7 +32,7 @@ export const applications: Application[] = [
   },
   {
     name: "HubSpot",
-    foundAt: "commitasync.com",
+    foundAt: "commitasync",
     role: "Software Engineer (USA)",
     website: "hubspot.com",
     status: "Applied",
@@ -40,7 +40,7 @@ export const applications: Application[] = [
   },
   {
     name: "SocialHub",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Backend Javascript/Node.js Developer",
     website: "socialhub.io",
     status: "Rejected",
@@ -49,7 +49,7 @@ export const applications: Application[] = [
   },
   {
     name: "Aquent",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Web Developer",
     website: "aquent.com",
     status: "Applied",
@@ -57,7 +57,7 @@ export const applications: Application[] = [
   },
   {
     name: "Avionte Staffing Software",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Engineer",
     website: "avionte.com",
     status: "Applied",
@@ -65,7 +65,7 @@ export const applications: Application[] = [
   },
   {
     name: "MPCH",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Junior Full Stack Engineer",
     website: "mpch.com",
     status: "Applied",
@@ -73,7 +73,7 @@ export const applications: Application[] = [
   },
   {
     name: "BotDojo",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Back End Developer",
     website: "botdojo.com",
     status: "Applied",
@@ -81,7 +81,7 @@ export const applications: Application[] = [
   },
   {
     name: "eTeam",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Javascript Developer",
     website: "eteaminc.com",
     status: "Applied",
@@ -89,7 +89,7 @@ export const applications: Application[] = [
   },
   {
     name: "TekJobs",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Frontend Developer",
     website: "tekjobs.net",
     status: "Applied",
@@ -97,7 +97,7 @@ export const applications: Application[] = [
   },
   {
     name: "24 Sevent Talent",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Developer",
     website: "24seventalent.com",
     status: "Applied",
@@ -105,7 +105,7 @@ export const applications: Application[] = [
   },
   {
     name: "Sticker Mule",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Software Engineer (Backend)",
     website: "stickermule.com",
     status: "Rejected",
@@ -114,7 +114,7 @@ export const applications: Application[] = [
   },
   {
     name: "DASH2",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Engineer",
     website: "dash2group.com",
     status: "Applied",
@@ -122,7 +122,7 @@ export const applications: Application[] = [
   },
   {
     name: "eTeam",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Staff Software Engineer",
     website: "eteaminc.com",
     status: "Applied",
@@ -130,7 +130,7 @@ export const applications: Application[] = [
   },
   {
     name: "ACS Consultancy Services, Inc",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Web Developer",
     website: "eteaminc.com",
     status: "Applied",
@@ -138,15 +138,15 @@ export const applications: Application[] = [
   },
   {
     name: "Private Client",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Web Developer",
-    website: "linkedin.com",
+    website: "linkedin",
     status: "Applied",
     appliedAt: "5/27/24",
   },
   {
     name: "Phamily",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Engineer",
     website: "phamily.com",
     status: "Applied",
@@ -154,24 +154,24 @@ export const applications: Application[] = [
   },
   {
     name: "InstaService",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Engineer",
-    website: "linkedin.com",
+    website: "linkedin",
     status: "Applied",
     appliedAt: "5/27/24",
   },
   {
     name: "Rec",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Senior Full Stack Engineer",
-    website: "wellfound.com",
+    website: "wellfound",
     status: "Applied",
     appliedAt: "5/21/24",
     rejectedAt: "5/22/24",
   },
   {
     name: "BreezeRFP",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Founding Engineer (Mid-Level)",
     website: "https://boards.greenhouse.io/wondersco?t=bb6e7d056us",
     status: "Applied",
@@ -180,7 +180,7 @@ export const applications: Application[] = [
   },
   {
     name: "Recurate",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Engineer",
     website: "recurate.com",
     status: "Applied",
@@ -188,7 +188,7 @@ export const applications: Application[] = [
   },
   {
     name: "DevZero",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Full-stack Developer",
     website: "https://www.devzero.io/",
     status: "Applied",
@@ -196,15 +196,15 @@ export const applications: Application[] = [
   },
   {
     name: "Pistachio",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Full-stack Developer",
-    website: "wellfound.com",
+    website: "wellfound",
     status: "Applied",
     appliedAt: "5/21/24",
   },
   {
     name: "Bite",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Full-Stack Software Engineer",
     website: "getbite.com",
     status: "Applied",
@@ -212,7 +212,7 @@ export const applications: Application[] = [
   },
   {
     name: "Truckbase",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Product Engineer",
     website: "truckbase.com",
     status: "Applied",
@@ -220,7 +220,7 @@ export const applications: Application[] = [
   },
   {
     name: "Fieldwire",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Mid-Level Fullstack Engineer",
     website: "fieldwire.com",
     status: "Applied",
@@ -228,7 +228,7 @@ export const applications: Application[] = [
   },
   {
     name: "Cinder",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Senior Software Engineer - Full Stack",
     website: "cndr.io",
     status: "Applied",
@@ -236,7 +236,7 @@ export const applications: Application[] = [
   },
   {
     name: "Churnkey",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Senior Full-Stack Engineer",
     website: "churnkey.co",
     status: "Applied",
@@ -244,7 +244,7 @@ export const applications: Application[] = [
   },
   {
     name: "Hedge",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Full-Stack Engineer",
     website: "hedge.io",
     status: "Applied",
@@ -252,7 +252,7 @@ export const applications: Application[] = [
   },
   {
     name: "Cyrisma",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Developer",
     website: "cyrisma.com",
     status: "Applied",
@@ -260,7 +260,7 @@ export const applications: Application[] = [
   },
   {
     name: "Onestop Software",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Javascript Developer",
     website: "onestop.software",
     status: "Applied",
@@ -268,7 +268,7 @@ export const applications: Application[] = [
   },
   {
     name: "Technology Group Inc (US)",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Engineer",
     website: "https://intechnologygroup.com/",
     status: "Applied",
@@ -276,7 +276,7 @@ export const applications: Application[] = [
   },
   {
     name: "Innovaccer",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Engineer II",
     website: "https://innovaccer.com/",
     status: "Applied",
@@ -284,7 +284,7 @@ export const applications: Application[] = [
   },
   {
     name: "Enigma",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Senior Full Stack Engineer",
     website: "https://enigma.com/",
     status: "Applied",
@@ -292,7 +292,7 @@ export const applications: Application[] = [
   },
   {
     name: "Enigma",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Senior Full Stack Engineer",
     website: "https://enigma.com/",
     status: "Applied",
@@ -300,7 +300,7 @@ export const applications: Application[] = [
   },
   {
     name: "Scope Labs",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Full-Stack Engineer",
     website: "https://scopelabs.com/",
     status: "Applied",
@@ -308,7 +308,7 @@ export const applications: Application[] = [
   },
   {
     name: "AllSpice.io",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Lead Fullstack Engineer",
     website: "https://allspice.io/",
     status: "Applied",
@@ -316,7 +316,7 @@ export const applications: Application[] = [
   },
   {
     name: "Breadcrumb",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Lead Fullstack Engineer",
     assessmentAt: "5/29/24",
     website: "https://www.breadcrumb.ai/",
@@ -325,7 +325,7 @@ export const applications: Application[] = [
   },
   {
     name: "Abnormal Security",
-    foundAt: "wellfound.com",
+    foundAt: "wellfound",
     role: "Software Engineer",
     website: "https://abnormalsecurity.com/",
     status: "Applied",
@@ -333,7 +333,7 @@ export const applications: Application[] = [
   },
   {
     name: "Zillow",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Senior Software Development Engineer",
     website: "https://zillow.com/",
     status: "Applied",
@@ -341,7 +341,7 @@ export const applications: Application[] = [
   },
   {
     name: "Jellyfish",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Backend Engineer",
     website: "https://jellyfish.co/",
     status: "Applied",
@@ -349,15 +349,15 @@ export const applications: Application[] = [
   },
   {
     name: "Storm2",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Software Engineer (Fin-Tech)",
-    website: "https://linkedin.com/",
+    website: "https://linkedin/",
     status: "Applied",
     appliedAt: "5/21/24",
   },
   {
     name: "Motion Recruitment",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Back End Developer",
     website: "https://motionrecruitment.com/",
     status: "Applied",
@@ -365,7 +365,7 @@ export const applications: Application[] = [
   },
   {
     name: "ByteBrew",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Engineer",
     website: "https://bytebrew.io/",
     status: "Applied",
@@ -373,7 +373,7 @@ export const applications: Application[] = [
   },
   {
     name: "Flawless",
-    foundAt: "linkedin.com",
+    foundAt: "linkedin",
     role: "Full Stack Engineer",
     website: "https://www.flawlessrecruit.com/",
     status: "Applied",
