@@ -15,6 +15,31 @@ export type Application = {
 
 export const applications: Application[] = [
   {
+    name: "HireHeroes.ai",
+    foundAt: "linkedin",
+    role: "Software Engineer",
+    website: "https://hireheroes.ai/",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
+    name: "Oracle",
+    foundAt: "linkedin",
+    role: "Software Developer 2",
+    website:
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/my-profile",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
+    name: "Engtal",
+    foundAt: "linkedin",
+    role: "Entry Level Software Engineer (Remote)",
+    website: "https://engtal.com",
+    status: "Applied",
+    appliedAt: "6/1/24",
+  },
+  {
     name: "Honor",
     foundAt: "commitasync",
     role: "Senior Software Engineer (Workforce)",
