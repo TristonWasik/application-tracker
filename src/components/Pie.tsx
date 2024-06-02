@@ -44,7 +44,7 @@ export default function PieChartComponent() {
               default:
                 color = COLORS.Default;
             }
-            return <Cell fill={color} />;
+            return <Cell key={entry[0]} fill={color} />;
           })}
       </Pie>
     </PieChart>
