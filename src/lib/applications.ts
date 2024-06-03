@@ -15,6 +15,31 @@ export type Application = {
 
 export const applications: Application[] = [
   {
+    name: "Brooksource",
+    foundAt: "linkedin",
+    role: "Fullstack Engineer",
+    website: "https://www.brooksource.com",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
+    name: "Microsoft",
+    foundAt: "linkedin",
+    role: "Software Development Engineer II (1715397)",
+    website:
+      "https://jobs.careers.microsoft.com/global/en/apply/thankyou?Job_id=1715397",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
+    name: "Sheldon Whispers",
+    foundAt: "linkedin",
+    role: "Full Stack Software Engineer (React, .NET Core, Azure)",
+    website: "https://www.sheldonwhispers.com",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
     name: "HireHeroes.ai",
     foundAt: "linkedin",
     role: "Software Engineer",
