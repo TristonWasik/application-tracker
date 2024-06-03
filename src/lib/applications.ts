@@ -15,10 +15,18 @@ export type Application = {
 
 export const applications: Application[] = [
   {
-    name: "Brooksource",
+    name: "BloomTech",
     foundAt: "linkedin",
-    role: "Fullstack Engineer",
-    website: "https://www.brooksource.com",
+    role: "Frontend Developer",
+    website: "https://www.bloomtech.com",
+    status: "Applied",
+    appliedAt: "6/2/24",
+  },
+  {
+    name: "ARK Solutions, Inc",
+    foundAt: "linkedin",
+    role: "Front-End Engineer (REMOTE)",
+    website: "https://arksolutionsinc.com/",
     status: "Applied",
     appliedAt: "6/2/24",
   },
@@ -71,6 +79,7 @@ export const applications: Application[] = [
     website: "joinhonor.com",
     status: "Applied",
     appliedAt: "5/31/24",
+    rejectedAt: "6/3/24",
   },
   {
     name: "Foodsmart",
@@ -235,6 +244,15 @@ export const applications: Application[] = [
     website: "recurate.com",
     status: "Applied",
     appliedAt: "5/22/24",
+  },
+  {
+    name: "Rye",
+    foundAt: "wellfound",
+    role: "Senior Full Stack Engineer",
+    website: "https://www.rye.com",
+    status: "Rejected",
+    appliedAt: "5/22/24",
+    rejectedAt: "6/3/24",
   },
   {
     name: "DevZero",
