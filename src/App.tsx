@@ -6,7 +6,7 @@ import { applications } from "./lib/applications";
 function App() {
   return (
     <div className="flex flex-col">
-      <nav className="flex border-b p-4 mb-4 justify-between w-full md:w-[60vw] m-auto">
+      <nav className="flex border-b p-4 mb-4 justify-between w-full md:w-[60vw] m-auto items-center">
         <h1>Applications</h1>
         <a
           href="https://tristonwasik.com"

@@ -30,7 +30,7 @@ export const BuildDataFromApplications = (): {
   const Accepted = applications.filter((f) => !!f.acceptedAt).length;
   const Rejections = applications.filter((f) => !!f.rejectedAt).length;
   const NoResponses = applications.filter(
-    (f) => !f.acceptedAt && !f.interviewedAt && !f.rejectedAt
+    (f) => !f.acceptedAt && !f.interviewedAt && !f.rejectedAt && !f.assessmentAt
   ).length;
   const Assessments = applications.filter((f) => !!f.assessmentAt).length;
 
