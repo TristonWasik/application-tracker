@@ -1,26 +1,11 @@
 import { applications } from "./applications";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { PieSlice, SankeyNode } from "./types";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
-
-export type status =
-  | "Applied"
-  | "Rejected"
-  | "No Response"
-  | "Interviewed"
-  | "Assessment"
-  | "To"
-  | "Status"
-  | "Accepted";
-
-/**
- * From, To, Count
- */
-export type SankeyNode = [string, status, number | string];
-export type PieSlice = [status, number];
 
 export const BuildDataFromApplications = (): {
   sankey: SankeyNode[];

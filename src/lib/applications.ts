@@ -1,19 +1,83 @@
-import { status } from "./utils";
-
-export type Application = {
-  name: string;
-  foundAt: string;
-  role: string;
-  website: string;
-  assessmentAt?: string;
-  status: status;
-  appliedAt: string;
-  interviewedAt?: string;
-  rejectedAt?: string;
-  acceptedAt?: string;
-};
+import { Application } from "./types";
 
 export const applications: Application[] = [
+  {
+    name: "L3Harris",
+    foundAt: "indeed",
+    role: "Specialist, Software Engineer",
+    website:
+      "https://careers.l3harris.com/job/-/-/4832/66137134304?jobPipeline=rd_indeed_pj&p_sid=pHYE0ib&p_uid=fTs1FtIIjO&ss=paid&utm_campaign=cs_2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "NextCentury Submetering Solutions",
+    foundAt: "indeed",
+    role: "Senior Software Engineeer",
+    website:
+      "https://jobs.gusto.com/postings/next-meters-senior-software-engineer-bc0e2d5b-2861-475b-9b59-19eca4074137",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "Bill",
+    foundAt: "indeed",
+    role: "Senior Software Engineer (Backend) - Identity",
+    website:
+      "https://www.indeed.com/jobs?q=software+engineer&l=Ogden%2C+UT&from=searchOnHP&vjk=6f4231851597b8cf",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "SymLiv",
+    foundAt: "indeed",
+    role: "Senior Software Engineer",
+    website: "https://www.indeed.com/",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "Porch Software",
+    foundAt: "indeed",
+    role: "Mid/Senior Backend Software Engineer",
+    website: "https://www.indeed.com/",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+
+  {
+    name: "Lifetime",
+    foundAt: "indeed",
+    role: "Software Developer",
+    website:
+      "https://www.indeed.com/cmp/Lifetime-Products,-Inc.?from=mobviewjob&tk=1hvo1ukldln3n801&fromjk=1e9d4f021ef94123&attributionid=mobvjcmp",
+    status: "Applied",
+    appliedAt: "6/6/24",
+  },
+  {
+    name: "Trenchant Analytics, LLC",
+    foundAt: "linkedin",
+    role: "Senior Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/5/24",
+  },
+  {
+    name: "SSi People",
+    foundAt: "linkedin",
+    role: "Software Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/5/24",
+  },
+  {
+    name: "Aura Recruit Ltd.",
+    foundAt: "linkedin",
+    role: "Back End Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/5/24",
+  },
   {
     name: "BloomTech",
     foundAt: "linkedin",
@@ -94,8 +158,9 @@ export const applications: Application[] = [
     foundAt: "commitasync",
     role: "Software Engineer (USA)",
     website: "hubspot.com",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "5/31/24",
+    rejectedAt: "6/4/24",
   },
   {
     name: "SocialHub",
@@ -275,15 +340,16 @@ export const applications: Application[] = [
     foundAt: "wellfound",
     role: "Full-Stack Software Engineer",
     website: "getbite.com",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "5/21/24",
+    rejectedAt: "6/5/24",
   },
   {
     name: "Truckbase",
     foundAt: "wellfound",
     role: "Product Engineer",
     website: "truckbase.com",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "5/21/24",
   },
   {
