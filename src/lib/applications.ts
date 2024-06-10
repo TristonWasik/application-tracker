@@ -2,6 +2,22 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Thrive Market",
+    foundAt: "commitasync",
+    role: "Senior Software Engineer, Web",
+    website: "https://thrivemarket.com/",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "Khan Academy",
+    foundAt: "commitasync",
+    role: "Software Engineer II, Data Infrastructure",
+    website: "https://boards.greenhouse.io/khanacademy/jobs/6005599",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
     name: "L3Harris",
     foundAt: "indeed",
     role: "Specialist, Software Engineer",
@@ -44,7 +60,6 @@ export const applications: Application[] = [
     status: "Applied",
     appliedAt: "6/10/24",
   },
-
   {
     name: "Lifetime",
     foundAt: "indeed",
