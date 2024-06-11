@@ -2,6 +2,39 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Clickhouse",
+    foundAt: "direct",
+    role: "Full Stack Engineer - Billing (Remote)",
+    website: "https://clickhouse.com/company/careers",
+    status: "Applied",
+    appliedAt: "6/11/24",
+  },
+  {
+    name: "Clickhouse",
+    foundAt: "direct",
+    role: "Cloud Software Engineer, Developer Productivity- Remote",
+    website: "https://clickhouse.com/company/careers",
+    status: "Applied",
+    appliedAt: "6/11/24",
+  },
+  {
+    name: "Clublender",
+    foundAt: "weworkremotely",
+    role: "FullStack Software Developer",
+    website:
+      "https://weworkremotely.com/remote-jobs/clublender-inc-full-stack-web-developer-1",
+    status: "Applied",
+    appliedAt: "6/11/24",
+  },
+  {
+    name: "Stratagen",
+    foundAt: "indeed",
+    role: "Software Developer 3",
+    website: "https://www.indeed.com/cmp/Stratagen-1?attributionid=IAconfirm",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
     name: "Thrive Market",
     foundAt: "commitasync",
     role: "Senior Software Engineer, Web",
@@ -14,6 +47,14 @@ export const applications: Application[] = [
     foundAt: "commitasync",
     role: "Software Engineer II, Data Infrastructure",
     website: "https://boards.greenhouse.io/khanacademy/jobs/6005599",
+    status: "Applied",
+    appliedAt: "6/10/24",
+  },
+  {
+    name: "KarmaCheck",
+    foundAt: "indeed",
+    role: "Sr Software Engineer - Frontend",
+    website: "https://www.indeed.com",
     status: "Applied",
     appliedAt: "6/10/24",
   },
@@ -66,8 +107,9 @@ export const applications: Application[] = [
     role: "Software Developer",
     website:
       "https://www.indeed.com/cmp/Lifetime-Products,-Inc.?from=mobviewjob&tk=1hvo1ukldln3n801&fromjk=1e9d4f021ef94123&attributionid=mobvjcmp",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "6/6/24",
+    rejectedAt: "6/11/24",
   },
   {
     name: "Trenchant Analytics, LLC",
