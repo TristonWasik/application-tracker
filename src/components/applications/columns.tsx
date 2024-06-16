@@ -1,8 +1,7 @@
-import { Application } from "@/lib/applications";
 import { ColumnDef } from "@tanstack/react-table";
 import { Button } from "../ui/button";
 import { ArrowUpDown } from "lucide-react";
-import { status } from "@/lib/utils";
+import { status, Application } from "@/lib/types";
 
 export const columns: ColumnDef<Application>[] = [
   {

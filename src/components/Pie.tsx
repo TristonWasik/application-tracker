@@ -13,40 +13,42 @@ export default function PieChartComponent() {
   const { pie } = BuildDataFromApplications();
 
   return (
-    <PieChart width={300} height={300}>
-      <Tooltip />
-      <Legend />
-      <Pie
-        dataKey="count"
-        label
-        fill="#82ca9d"
-        data={pie
-          .filter((f) => f[1] > 0)
-          .map((item) => ({ name: item[0].toString(), count: item[1] }))}
-      >
-        {pie
-          .filter((f) => f[1] > 0)
-          .map((entry) => {
-            let color = "";
-            switch (entry[0].toString()) {
-              case "Accepted":
-                color = COLORS.Accepted;
-                break;
-              case "Interviewed":
-                color = COLORS.Interviewed;
-                break;
-              case "Rejected":
-                color = COLORS.Rejected;
-                break;
-              case "Assessment":
-                color = COLORS.Assessment;
-                break;
-              default:
-                color = COLORS.Default;
-            }
-            return <Cell key={entry[0]} fill={color} />;
-          })}
-      </Pie>
-    </PieChart>
+    <div data-testid="pieChart">
+      <PieChart width={300} height={300}>
+        <Tooltip />
+        <Legend />
+        <Pie
+          dataKey="count"
+          label
+          fill="#82ca9d"
+          data={pie
+            .filter((f) => f[1] > 0)
+            .map((item) => ({ name: item[0].toString(), count: item[1] }))}
+        >
+          {pie
+            .filter((f) => f[1] > 0)
+            .map((entry) => {
+              let color = "";
+              switch (entry[0].toString()) {
+                case "Accepted":
+                  color = COLORS.Accepted;
+                  break;
+                case "Interviewed":
+                  color = COLORS.Interviewed;
+                  break;
+                case "Rejected":
+                  color = COLORS.Rejected;
+                  break;
+                case "Assessment":
+                  color = COLORS.Assessment;
+                  break;
+                default:
+                  color = COLORS.Default;
+              }
+              return <Cell key={entry[0]} fill={color} />;
+            })}
+        </Pie>
+      </PieChart>
+    </div>
   );
 }

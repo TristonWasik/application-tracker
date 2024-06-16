@@ -27,4 +27,10 @@ npm run dev
 
 ## Deployment
 
+1. Build app. This runs the automated jest unit tests as well as creates a new tarball to deploy to Caprover.
+
+```shell
+npm run build
+```
+
 I use caprover to host all of my apps. I provided a createTar.bat for convenience. Drag and drop the tarball into caprover and it'll deploy.
