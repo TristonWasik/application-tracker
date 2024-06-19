@@ -1,4 +1,5 @@
 import AppCounter from "./components/AppCounter";
+import LineChartComponent from "./components/Line";
 import PieChartComponent from "./components/Pie";
 import ApplicationsTable from "./components/applications";
 import { ModeToggle } from "./components/mode-toggle";
@@ -21,6 +22,9 @@ function App() {
         <div className="flex items-center gap-20 justify-center">
           <AppCounter />
           <PieChartComponent />
+        </div>
+        <div className="flex items-center justify-center mt-8">
+          <LineChartComponent />
         </div>
         <ApplicationsTable />
       </main>
