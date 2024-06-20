@@ -33,14 +33,17 @@ const buildLineChartData = () => {
 export default function LineChartComponent() {
   const data = buildLineChartData();
   return (
-    <LineChart width={730} height={250} data={data}>
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="day" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Line type="monotone" dataKey="May" stroke="#8884d8" />
-      <Line type="monotone" dataKey="Jun" stroke="#82ca9d" />
-    </LineChart>
+    <div className="flex flex-col items-center">
+      <h2>Applications Per Day</h2>
+      <LineChart width={730} height={250} data={data}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="day" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="May" stroke="#8884d8" />
+        <Line type="monotone" dataKey="Jun" stroke="#82ca9d" />
+      </LineChart>
+    </div>
   );
 }

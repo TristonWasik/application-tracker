@@ -19,6 +19,10 @@ export type Application = {
   interviewedAt?: string;
   rejectedAt?: string;
   acceptedAt?: string;
+  salary?: {
+    min: number;
+    max: number;
+  };
 };
 
 const statusOptions = [
