@@ -36,7 +36,7 @@ const buildFunnelChartData = () => {
   const highTierMax = appsWithSalaries.filter(
     (f) => f.salary!.max > 120000 && f.salary!.max <= 180000
   );
-  const vhighTierMax = appsWithSalaries.filter((f) => f.salary!.min > 180000);
+  const vhighTierMax = appsWithSalaries.filter((f) => f.salary!.max > 180000);
 
   return [
     {
