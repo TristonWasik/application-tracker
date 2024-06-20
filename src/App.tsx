@@ -1,4 +1,5 @@
 import AppCounter from "./components/AppCounter";
+import BarChartComponent from "./components/Bar";
 import LineChartComponent from "./components/Line";
 import PieChartComponent from "./components/Pie";
 import ApplicationsTable from "./components/applications";
@@ -25,6 +26,9 @@ function App() {
         </div>
         <div className="flex items-center justify-center mt-8">
           <LineChartComponent />
+        </div>
+        <div className="flex items-center justify-center mt-8">
+          <BarChartComponent />
         </div>
         <ApplicationsTable />
       </main>

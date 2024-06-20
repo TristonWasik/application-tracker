@@ -217,6 +217,10 @@ export const applications: Application[] = [
     website: "https://www.jobs.careers.microsoft.com",
     status: "Applied",
     appliedAt: "6/20/24",
+    salary: {
+      min: 98300,
+      max: 193200,
+    },
   },
   {
     name: "Microsoft",
@@ -225,6 +229,22 @@ export const applications: Application[] = [
     website: "https://www.jobs.careers.microsoft.com",
     status: "Applied",
     appliedAt: "6/20/24",
+    salary: {
+      min: 98300,
+      max: 193200,
+    },
+  },
+  {
+    name: "Microsoft",
+    foundAt: "direct",
+    role: "Software Engineer II (1729737)",
+    website: "https://www.jobs.careers.microsoft.com",
+    status: "Applied",
+    appliedAt: "6/20/24",
+    salary: {
+      min: 98300,
+      max: 193200,
+    },
   },
   {
     name: "Microsoft",
@@ -233,6 +253,10 @@ export const applications: Application[] = [
     website: "https://www.jobs.careers.microsoft.com",
     status: "Applied",
     appliedAt: "6/20/24",
+    salary: {
+      min: 94300,
+      max: 182600,
+    },
   },
   {
     name: "Storm3",
@@ -1381,6 +1405,10 @@ export const applications: Application[] = [
       "https://jobs.careers.microsoft.com/global/en/apply/thankyou?Job_id=1715397",
     status: "Applied",
     appliedAt: "6/2/24",
+    salary: {
+      min: 120900,
+      max: 198600,
+    },
   },
   {
     name: "Sheldon Whispers",

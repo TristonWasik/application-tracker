@@ -36,8 +36,8 @@ const statusOptions = [
 ] as const;
 export type status = (typeof statusOptions)[number];
 
-/**
- * From, To, Count
- */
-export type SankeyNode = [string, status, number | string];
 export type PieSlice = [status, number];
+export type LineChartDataPoint = { [month: string]: number } & {
+  date?: string;
+  day: number;
+};

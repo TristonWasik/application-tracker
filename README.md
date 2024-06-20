@@ -4,6 +4,9 @@
 
 This is a simple app I threw together to document my 2024 job hunting adventure after being laid off. It's also helping me document my job hunting progress for unemployment. The applications are currently flatfiled so anyone can update them to their own needs if they wish to use this.
 
+[My Application Adventure](https://applications.tristonwasik.com)
+[Portfolio](https://tristonwasik.com)
+
 ## Install & Setup
 
 1. Clone repo

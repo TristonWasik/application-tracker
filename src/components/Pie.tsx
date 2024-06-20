@@ -9,6 +9,9 @@ const COLORS = {
   Assessment: "#2c7a7b",
 };
 
+/**
+ * Pie chart component to display a breakdown of current application statuses
+ */
 export default function PieChartComponent() {
   const { pie } = BuildDataFromApplications();
 

@@ -1,4 +1,5 @@
 import { applications } from "@/lib/applications";
+import { LineChartDataPoint } from "@/lib/types";
 import { format } from "date-fns/format";
 import {
   CartesianGrid,
@@ -10,26 +11,47 @@ import {
   YAxis,
 } from "recharts";
 
-const getUniqueDates = () => {
-  return [...new Set(applications.map((app) => app.appliedAt))];
-};
-
+/**
+ * Build out the data for our line chart
+ * @returns data
+ */
 const buildLineChartData = () => {
-  const uniqueDates = getUniqueDates();
-  let stats = [];
+  let results: LineChartDataPoint[] = [];
 
-  for (const date of uniqueDates.reverse()) {
-    const monthName = format(new Date(date), "LLL");
-    const count = applications.reduce((acc, app) => {
-      return app.appliedAt === date ? (acc += 1) : acc;
-    }, 0);
-    let statsObj = { date, [monthName]: count, day: new Date(date).getDate() };
-    stats.push(statsObj);
+  // loop 31 times for each potential day in a month
+  for (const day of Array.from(new Array(31), (_, i) => i + 1)) {
+    let result: LineChartDataPoint = { day };
+
+    // filter our apps for any on that particular day of the month
+    const apps = applications.filter(
+      (f) => f.appliedAt.split("/")[1] === day.toString()
+    );
+
+    // skip the date if we dont have any apps to eliminate unnecessary columns
+    if (apps.length === 0) continue;
+
+    // for each unique month for the given date, calculate the total apps
+    for (const month of [
+      ...new Set(apps.map((app) => app.appliedAt.split("/")[0])),
+    ]) {
+      const thisMonthsApps = apps.filter(
+        (f) => f.appliedAt.split("/")[0] === month
+      );
+      const monthName = format(thisMonthsApps[0].appliedAt, "LLL");
+
+      // assign the length of apps for the given month
+      Object.assign(result, { [monthName]: thisMonthsApps.length });
+    }
+
+    results.push(result);
   }
 
-  return stats.sort((a, b) => (a.day > b.day ? 1 : -1));
+  return results;
 };
 
+/**
+ * Line chart component to display applications per day. Does not display a column for days where no app was put in.
+ */
 export default function LineChartComponent() {
   const data = buildLineChartData();
   return (
@@ -39,7 +61,7 @@ export default function LineChartComponent() {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="day" />
         <YAxis />
-        <Tooltip />
+        <Tooltip contentStyle={{ color: "red" }} />
         <Legend />
         <Line type="monotone" dataKey="May" stroke="#8884d8" />
         <Line type="monotone" dataKey="Jun" stroke="#82ca9d" />
