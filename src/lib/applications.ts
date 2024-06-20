@@ -2,6 +2,60 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "LogicGate",
+    foundAt: "commitasync",
+    role: "Software Engineer: Frontend",
+    website:
+      "https://www.commitasync.com/jobs/software-engineer-frontend-logicgate-1718171455876/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
+    name: "Axon",
+    foundAt: "commitasync",
+    role: "Software Engineer",
+    website:
+      "https://www.commitasync.com/jobs/software-engineer-open-to-remote-work-axon-1718257839498/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
+    name: "Spring Health",
+    foundAt: "commitasync",
+    role: "Senior Software Engineer II (Mobile + Web)",
+    website:
+      "https://www.commitasync.com/jobs/senior-software-engineer-ii-mobile-web-spring-health-1718257849732/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
+    name: "Franklin Covey",
+    foundAt: "commitasync",
+    role: "Software Engineer",
+    website:
+      "https://www.commitasync.com/jobs/software-engineer-franklincovey-1718517014373/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
+    name: "Trunk.io",
+    foundAt: "commitasync",
+    role: "Senior Software Engineer (Infrastructure)",
+    website:
+      "https://www.commitasync.com/jobs/senior-software-engineer-infrastructure-trunk-1718688007543/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
+    name: "Apollo",
+    foundAt: "commitasync",
+    role: "Senior Software Engineer, Backend",
+    website:
+      "https://www.commitasync.com/jobs/senior-software-engineer-backend-apollo-graphql-1718688021084/",
+    status: "Applied",
+    appliedAt: "6/19/24",
+  },
+  {
     name: "Included Health",
     foundAt: "linkedin",
     role: "Senior Backend Engineer, Treat Team",
@@ -10,7 +64,7 @@ export const applications: Application[] = [
     appliedAt: "6/19/24",
   },
   {
-    name: "IDR, LLC",
+    name: "IDR, Inc.",
     foundAt: "linkedin",
     role: "Python Developer (332492)",
     website: "https://www.linkedin.com",
@@ -1174,7 +1228,7 @@ export const applications: Application[] = [
   },
   {
     name: "Demandbase",
-    foundAt: "direct",
+    foundAt: "commitasync",
     role: "Full Stack Engineer",
     website: "https://www.demandbase.com",
     status: "Rejected",
