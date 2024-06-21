@@ -2,6 +2,122 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Focused Support LLC",
+    foundAt: "indeed",
+    role: "Mid-Level Software Engineer",
+    website:
+      "https://www.indeed.com/jobs?q=software+engineer&l=Ogden%2C+UT&radius=50&start=10&vjk=42f9e4fa7e689c44",
+    status: "Applied",
+    appliedAt: "6/21/24",
+    salary: {
+      min: 80000,
+      max: 110000,
+    },
+  },
+  {
+    name: "AvantGuard Monitoring Centers",
+    foundAt: "indeed",
+    role: "Mid Level Software Engineer",
+    website:
+      "https://www.indeed.com/jobs?q=software+engineer&l=Ogden%2C+UT&from=searchOnHP&vjk=167661edadd2096a",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Xylem",
+    foundAt: "linkedin",
+    role: "Application Engineer",
+    website:
+      "https://careers-mtsi.icims.com/jobs/9046/full-stack-software-lead/candidate?csrf=2AD08AA3C109CA88&hashed=1274430067&uploadResume=1&uploadResume=1",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Full Stack Software Lead",
+    foundAt: "linkedin",
+    role: "Engineer",
+    website:
+      "https://careers-mtsi.icims.com/jobs/9046/full-stack-software-lead/candidate?csrf=2AD08AA3C109CA88&hashed=1274430067&uploadResume=1&uploadResume=1",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Air Force Civilian Service",
+    foundAt: "direct",
+    role: "Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/21/24",
+    salary: {
+      min: 54200,
+      max: 97800,
+    },
+  },
+  {
+    name: "Talent Groups",
+    foundAt: "direct",
+    role: "Contract Web Application Developer",
+    website:
+      "https://www.talentgroups.com/job-details/contract-web-application-developer-in-softwareapplication-development-and-architecture-jobs-943647?key=linkedin",
+    status: "Applied",
+    appliedAt: "6/21/24",
+    salary: {
+      min: 90000,
+      max: 130000,
+    },
+  },
+  {
+    name: "Continuum AI",
+    foundAt: "linkedin",
+    role: "Senior Full Stack Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Payroll Integrations",
+    foundAt: "linkedin",
+    role: "Senior Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/21/24",
+    salary: {
+      min: 120000,
+      max: 140000,
+    },
+  },
+  {
+    name: "Noxx AI",
+    foundAt: "direct",
+    role: "Backend Software Engineer",
+    website:
+      "https://talent.noxx.net/application/990e7fc6-be68-4a80-a797-6a1ff85a57c0",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Whitespectre",
+    foundAt: "weworkremotely",
+    role: "Senior Fullstack Engineer (React.js & Next.js)",
+    website:
+      "https://weworkremotely.com/remote-jobs/whitespectre-senior-fullstack-engineer-react-js-next-js",
+    status: "Applied",
+    appliedAt: "6/21/24",
+  },
+  {
+    name: "Twilio",
+    foundAt: "commitasync",
+    role: "Software Enginer (L2)",
+    website:
+      "https://www.commitasync.com/jobs/software-engineer-l2-twilio-1718776216572/",
+    status: "Applied",
+    appliedAt: "6/21/24",
+    salary: {
+      min: 112000,
+      max: 140000,
+    },
+  },
+  {
     name: "Nymble Health",
     foundAt: "wellfound",
     role: "Mid-Level Full Stack Engineer",
@@ -59,8 +175,9 @@ export const applications: Application[] = [
     role: "Full-Stack Junior Software Engineer",
     website:
       "https://wellfound.com/jobs/3039373-full-stack-junior-software-engineer",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "6/20/24",
+    rejectedAt: "6/20/24",
     salary: {
       min: 100000,
       max: 150000,
@@ -239,8 +356,9 @@ export const applications: Application[] = [
     foundAt: "direct",
     role: "Software Engineer II (1729737)",
     website: "https://www.jobs.careers.microsoft.com",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "6/20/24",
+    rejectedAt: "6/21/24",
     salary: {
       min: 98300,
       max: 193200,
@@ -877,7 +995,8 @@ export const applications: Application[] = [
     foundAt: "indeed",
     role: "Senior Developer",
     website: "https://www.indeed.com",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "6/20/24",
     appliedAt: "6/19/24",
   },
   {
@@ -893,7 +1012,8 @@ export const applications: Application[] = [
     foundAt: "indeed",
     role: "Sentinel Software Engineer",
     website: "https://www.indeed.com",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "6/20/24",
     appliedAt: "6/19/24",
   },
   {
@@ -1328,8 +1448,13 @@ export const applications: Application[] = [
     role: "Senior Software Engineer (Backend) - Identity",
     website:
       "https://www.indeed.com/jobs?q=software+engineer&l=Ogden%2C+UT&from=searchOnHP&vjk=6f4231851597b8cf",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "6/21/24",
     appliedAt: "6/10/24",
+    salary: {
+      min: 123800,
+      max: 148500,
+    },
   },
   {
     name: "SymLiv",
@@ -1741,14 +1866,6 @@ export const applications: Application[] = [
     appliedAt: "5/21/24",
   },
   {
-    name: "Enigma",
-    foundAt: "wellfound",
-    role: "Senior Full Stack Engineer",
-    website: "https://enigma.com/",
-    status: "Applied",
-    appliedAt: "5/21/24",
-  },
-  {
     name: "Scope Labs",
     foundAt: "wellfound",
     role: "Full-Stack Engineer",
@@ -1756,6 +1873,10 @@ export const applications: Application[] = [
     status: "Assessment",
     appliedAt: "5/21/24",
     assessmentAt: "6/11/24",
+    salary: {
+      min: 120000,
+      max: 160000,
+    },
   },
   {
     name: "AllSpice.io",
