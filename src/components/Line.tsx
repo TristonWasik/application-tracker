@@ -1,6 +1,5 @@
 import { applications } from "@/lib/applications";
 import { LineChartDataPoint } from "@/lib/types";
-import { format } from "date-fns/format";
 import {
   CartesianGrid,
   Legend,
@@ -10,6 +9,38 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+
+const getMonthFromNumber = (num: number | string) => {
+  const numToTest = typeof num === "number" ? num : parseInt(num);
+  switch (numToTest) {
+    case 1:
+      return "Jan";
+    case 2:
+      return "Feb";
+    case 3:
+      return "Mar";
+    case 4:
+      return "Apr";
+    case 5:
+      return "May";
+    case 6:
+      return "Jun";
+    case 7:
+      return "Jul";
+    case 8:
+      return "Aug";
+    case 9:
+      return "Sep";
+    case 10:
+      return "Oct";
+    case 11:
+      return "Nov";
+    case 12:
+      return "Dec";
+    default:
+      throw new Error("Invalid number");
+  }
+};
 
 /**
  * Build out the data for our line chart
@@ -27,20 +58,22 @@ const buildLineChartData = () => {
       (f) => f.appliedAt.split("/")[1] === day.toString()
     );
 
-    // skip the date if we dont have any apps to eliminate unnecessary columns
-    if (apps.length === 0) continue;
-
     // for each unique month for the given date, calculate the total apps
     for (const month of [
-      ...new Set(apps.map((app) => app.appliedAt.split("/")[0])),
+      ...new Set(applications.map((app) => app.appliedAt.split("/")[0])),
     ]) {
-      const thisMonthsApps = apps.filter(
-        (f) => f.appliedAt.split("/")[0] === month
-      );
-      const monthName = format(thisMonthsApps[0].appliedAt, "LLL");
+      const monthName = getMonthFromNumber(month);
 
-      // assign the length of apps for the given month
-      Object.assign(result, { [monthName]: thisMonthsApps.length });
+      if (apps.length === 0) {
+        Object.assign(result, { [monthName]: 0 });
+      } else {
+        const thisMonthsApps = apps.filter(
+          (f) => f.appliedAt.split("/")[0] === month
+        );
+
+        // assign the length of apps for the given month
+        Object.assign(result, { [monthName]: thisMonthsApps.length });
+      }
     }
 
     results.push(result);
