@@ -19,6 +19,7 @@ export type Application = {
   interviewedAt?: string;
   rejectedAt?: string;
   acceptedAt?: string;
+  notes?: string;
   salary?: {
     min: number;
     max: number;
