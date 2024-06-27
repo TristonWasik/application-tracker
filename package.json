@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && npm run test && vite build && createTar.bat",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "deploy": "npm run build && caprover deploy -n captain-01 -a application-app -t deploy.tar",
     "preview": "vite preview",
     "test": "jest"
   },
