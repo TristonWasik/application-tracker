@@ -10,13 +10,15 @@ export function cn(...inputs: ClassValue[]) {
 export const BuildDataFromApplications = (): {
   pie: PieSlice[];
 } => {
-  const Interviews = applications.filter((f) => !!f.interviewedAt).length;
-  const Accepted = applications.filter((f) => !!f.acceptedAt).length;
-  const Rejections = applications.filter((f) => !!f.rejectedAt).length;
-  const NoResponses = applications.filter(
-    (f) => !f.acceptedAt && !f.interviewedAt && !f.rejectedAt && !f.assessmentAt
+  const Interviews = applications.filter(
+    (f) => f.status === "Interviewed"
   ).length;
-  const Assessments = applications.filter((f) => !!f.assessmentAt).length;
+  const Accepted = applications.filter((f) => f.status === "Accepted").length;
+  const Rejections = applications.filter((f) => f.status === "Rejected").length;
+  const NoResponses = applications.filter((f) => f.status === "Applied").length;
+  const Assessments = applications.filter(
+    (f) => f.status === "Assessment"
+  ).length;
 
   return {
     pie: [

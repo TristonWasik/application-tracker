@@ -29,15 +29,23 @@ export type Application = {
 const statusOptions = [
   "Applied",
   "Rejected",
-  "No Response",
   "Interviewed",
   "Assessment",
+  "Offer",
   "Accepted",
-  "To",
 ] as const;
+/**
+ * Status of application
+ * - Applied: the initial status
+ * - Rejected: Received a rejection via email, phone, or whatever
+ * - Interviewed: Have a scheduled interview or had one in the past
+ * - Assessment: Took a takehome assessment
+ * - Offer: The company offered the job
+ * - Accepted: Accepted an offer
+ */
 export type status = (typeof statusOptions)[number];
 
-export type PieSlice = [status, number];
+export type PieSlice = [status | "No Response", number];
 export type LineChartDataPoint = { [month: string]: number } & {
   date?: string;
   day: number;
