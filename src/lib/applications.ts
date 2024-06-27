@@ -2,6 +2,62 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Tome",
+    foundAt: "wellfound",
+    role: "Full-Stack Engineer",
+    website: "https://wellfound.com/jobs?job_listing_id=1611101",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 100000,
+      max: 150000,
+    },
+  },
+  {
+    name: "Equi",
+    foundAt: "wellfound",
+    role: "Senior Full Stack Engineer",
+    website: "https://wellfound.com/jobs?job_listing_id=3041571",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 160000,
+      max: 180000,
+    },
+  },
+  {
+    name: "Trainwell",
+    foundAt: "wellfound",
+    role: "Senior Full Stack Engineer",
+    website: "https://wellfound.com/jobs?job_listing_id=3041571",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 175000,
+      max: 200000,
+    },
+  },
+  {
+    name: "Seeds",
+    foundAt: "wellfound",
+    role: "Senior Full Stack Developer",
+    website: "https://wellfound.com/jobs?job_listing_id=3041883",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 140000,
+      max: 185000,
+    },
+  },
+  {
+    name: "Mouser",
+    foundAt: "direct",
+    role: "Sr Web Developer",
+    website: "https://careers.mouser.com/jobs/17411?lang=en-us",
+    status: "Applied",
+    appliedAt: "6/27/24",
+  },
+  {
     name: "Murata Machinery Usa Inc.",
     foundAt: "indeed",
     role: "Senior Software Engineer",
