@@ -2,6 +2,71 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Coalition, Inc.",
+    foundAt: "linkedin",
+    role: "Software Engineer, Integrations",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 104000,
+      max: 170000,
+    },
+  },
+  {
+    name: "A2C",
+    foundAt: "linkedin",
+    role: "Full Stack .Net Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 135000,
+      max: 160000,
+    },
+  },
+  {
+    name: "KCF Technologies, Inc",
+    foundAt: "linkedin",
+    role: "Senior Software Engineer",
+    website: "https://www.linkedin.com",
+    notes: "asked for 110",
+    status: "Applied",
+    appliedAt: "6/27/24",
+  },
+  {
+    name: "Stripe",
+    foundAt: "linkedin",
+    role: "Full Stack Engineer, Accounts & Connect Activation",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 136800,
+      max: 244700,
+    },
+  },
+  {
+    name: "TTEC Digital",
+    foundAt: "linkedin",
+    role: "AWS Software Developer (Typescript)",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/27/24",
+    salary: {
+      min: 90000,
+      max: 110000,
+    },
+  },
+  {
+    name: "i4DM",
+    foundAt: "linkedin",
+    role: "Node.js Application Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/27/24",
+  },
+  {
     name: "Tome",
     foundAt: "wellfound",
     role: "Full-Stack Engineer",
@@ -2822,7 +2887,8 @@ export const applications: Application[] = [
     foundAt: "linkedin",
     role: "Backend Engineer",
     website: "https://jellyfish.co/",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "6/27/24",
     appliedAt: "5/21/24",
   },
   {
