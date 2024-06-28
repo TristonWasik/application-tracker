@@ -1,11 +1,12 @@
 {
-  "name": "application-app",
+  "name": "application-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && npm run test && vite build",
+    "build:tar": "npm run build && createTar.bat",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "deploy": "npm run build && createTar.bat && caprover deploy -n captain-01 -a application-app -t deploy.tar",
     "preview": "vite preview",
