@@ -2,6 +2,19 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "State of Utah, DWS",
+    foundAt: "direct",
+    role: "Software Developer - KSSOW 24003 - DWS - Department of Government Operations - IT",
+    notes: "Through Steven at ConsultNet",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "6/28/24",
+    salary: {
+      min: 110000,
+      max: 110000,
+    },
+  },
+  {
     name: "Excalibur Works",
     foundAt: "linkedin",
     role: "Full Stack Engineer",
@@ -1213,8 +1226,10 @@ export const applications: Application[] = [
     name: "Verdance",
     foundAt: "wellfound",
     role: "Fullstack Software Engineer",
+    notes:
+      "got an email on 6/29/24 saying they're going to schedule an interview for the second week of July",
     website: "https://wellfound.com/jobs?job_listing_id=2465547",
-    status: "Applied",
+    status: "Interviewed",
     appliedAt: "6/20/24",
     salary: {
       min: 120000,
@@ -2519,9 +2534,10 @@ export const applications: Application[] = [
     name: "NextCentury Submetering Solutions",
     foundAt: "indeed",
     role: "Senior Software Engineeer",
+    notes: "Email from betsy lyons wanting to schedule an interview",
     website:
       "https://jobs.gusto.com/postings/next-meters-senior-software-engineer-bc0e2d5b-2861-475b-9b59-19eca4074137",
-    status: "Applied",
+    status: "Interviewed",
     appliedAt: "6/10/24",
   },
   {
