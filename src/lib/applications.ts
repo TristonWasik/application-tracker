@@ -2,6 +2,166 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Trunk Tools",
+    foundAt: "direct",
+    role: "Full Stack Engineer (NYC or Remote US)",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 140k",
+    website:
+      "https://trunktools.com/careers/?ashby_jid=1d862ead-741b-4ce2-83f4-d914393b9ad3",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 100000,
+      max: 170000,
+    },
+  },
+  {
+    name: "Trunk Tools",
+    foundAt: "direct",
+    role: "Full Stack / Implementation Engineer (NYC or Remote US)",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 140k",
+    website:
+      "https://trunktools.com/careers/?ashby_jid=8f09c6bb-5c64-4c06-874e-dbfa0b1d326d",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 100000,
+      max: 170000,
+    },
+  },
+  {
+    name: "Orases",
+    foundAt: "direct",
+    role: "Software Developer Team Lead",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 140k",
+    website: "https://orases.bamboohr.com/careers",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 140000,
+      max: 140000,
+    },
+  },
+  {
+    name: "MeaningfulGigs",
+    foundAt: "direct",
+    role: "Senior Frontend Engineer",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 120k",
+    website: "https://boards.greenhouse.io/meaningfulgigs",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 120000,
+      max: 120000,
+    },
+  },
+  {
+    name: "MeaningfulGigs",
+    foundAt: "direct",
+    role: "Senior Software Engineer (Backend)",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 115-140k",
+    website: "https://boards.greenhouse.io/meaningfulgigs",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 115000,
+      max: 140000,
+    },
+  },
+  {
+    name: "Trunk.io",
+    foundAt: "direct",
+    role: "Senior Backend Engineer",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; applied via email per post request;",
+    website:
+      "https://jobs.ashbyhq.com/virtahealth/1748c3a4-a0ec-4ed2-b14a-705b0bb9720f/application?utm_source=5dMXNoQkZg",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 170000,
+      max: 210000,
+    },
+  },
+  {
+    name: "Virta Health",
+    foundAt: "direct",
+    role: "Senior Backend Engineer",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; applied via email per post request;",
+    website:
+      "https://jobs.ashbyhq.com/virtahealth/1748c3a4-a0ec-4ed2-b14a-705b0bb9720f/application?utm_source=5dMXNoQkZg",
+    status: "Applied",
+    appliedAt: "7/1/24",
+  },
+  {
+    name: "76 Software Engineering Group",
+    foundAt: "direct",
+    role: "Software Engineer",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; applied via email per post request; need to decline if i get a reply, didnt realize it was onsite",
+    website: "https://news.ycombinator.com/item?id=40846428",
+    status: "Applied",
+    appliedAt: "7/1/24",
+  },
+  {
+    name: "Eigen",
+    foundAt: "direct",
+    role: "Software Engineer",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; applied via email per post request",
+    website: "https://news.ycombinator.com/item?id=40846428",
+    status: "Applied",
+    appliedAt: "7/1/24",
+  },
+  {
+    name: "Hightouch",
+    foundAt: "direct",
+    role: "Software Engineer, Customer Studio Backend",
+    notes: "found on https://news.ycombinator.com/item?id=40846428",
+    website: "https://boards.greenhouse.io/hightouch/jobs/4782625004",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 170000,
+      max: 240000,
+    },
+  },
+  {
+    name: "teamsnap",
+    foundAt: "direct",
+    role: "Senior Software Engineer (BE/Fullstack)",
+    notes:
+      "found on https://news.ycombinator.com/item?id=40846428; asked for 140-150k",
+    website:
+      "https://jobs.lever.co/teamsnap/25a7a391-780c-40c0-bc75-81496685de47",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 144500,
+      max: 144500,
+    },
+  },
+  {
+    name: "Serpapi",
+    foundAt: "direct",
+    role: "Senior Fullstack Engineer",
+    notes:
+      "emailed them directly, found on https://news.ycombinator.com/item?id=40846428",
+    website: "https://serpapi.com/careers/senior-fullstack-engineer",
+    status: "Applied",
+    appliedAt: "7/1/24",
+    salary: {
+      min: 150000,
+      max: 180000,
+    },
+  },
+  {
     name: "State of Utah, DWS",
     foundAt: "direct",
     role: "Software Developer - KSSOW 24003 - DWS - Department of Government Operations - IT",
@@ -40,7 +200,8 @@ export const applications: Application[] = [
     role: "Software Engineer (Eastern/Central US Time Zones)",
     notes: "asked for 100k",
     website: "https://www.linkedin.com",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/1/24",
     appliedAt: "6/28/24",
   },
   {
@@ -2527,8 +2688,9 @@ export const applications: Application[] = [
     role: "Specialist, Software Engineer",
     website:
       "https://careers.l3harris.com/job/-/-/4832/66137134304?jobPipeline=rd_indeed_pj&p_sid=pHYE0ib&p_uid=fTs1FtIIjO&ss=paid&utm_campaign=cs_2024&utm_content=pj_board&utm_medium=jobad&utm_source=indeed",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "6/10/24",
+    rejectedAt: "7/1/24",
   },
   {
     name: "NextCentury Submetering Solutions",
