@@ -98,6 +98,7 @@ export default function LineChartComponent() {
         <Legend />
         <Line type="monotone" dataKey="May" stroke="#8884d8" />
         <Line type="monotone" dataKey="Jun" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="Jul" stroke="#A882CA" />
       </LineChart>
     </div>
   );
