@@ -2,6 +2,96 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Kadince",
+    foundAt: "direct",
+    role: "Web Developer",
+    website:
+      "https://kadince.bamboohr.com/careers/35?click_id=dafb2de2d61c4cb2ac69e441bafc8cc1outc1",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 70000,
+      max: 120000,
+    },
+  },
+  {
+    name: "MyHire.tech",
+    foundAt: "linkedin",
+    role: "Senior Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 145000,
+      max: 170000,
+    },
+  },
+  {
+    name: "MyHire.tech",
+    foundAt: "linkedin",
+    role: "Senior Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+  },
+  {
+    name: "Addison Group",
+    foundAt: "linkedin",
+    role: "Web Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+  },
+  {
+    name: "Acceler8",
+    foundAt: "linkedin",
+    role: "Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 200000,
+      max: 600000,
+    },
+  },
+  {
+    name: "Mostest",
+    foundAt: "linkedin",
+    role: "Full Stack Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 120000,
+      max: 160000,
+    },
+  },
+  {
+    name: "Brooksource",
+    foundAt: "indeed",
+    role: "API Developer",
+    website:
+      "https://www.indeed.com/viewjob?from=app-tracker-post_apply-appcard&hl=en&jk=d5d7db0d81e4af2d&tk=1i1quk908kbls800",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 100000,
+      max: 120000,
+    },
+  },
+  {
+    name: "Twenty Bridge Staffing",
+    foundAt: "linkedin",
+    role: "Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/2/24",
+    salary: {
+      min: 75000,
+      max: 77000,
+    },
+  },
+  {
     name: "Trunk Tools",
     foundAt: "direct",
     role: "Full Stack Engineer (NYC or Remote US)",
@@ -52,7 +142,8 @@ export const applications: Application[] = [
     notes:
       "found on https://news.ycombinator.com/item?id=40846428; asked for 120k",
     website: "https://boards.greenhouse.io/meaningfulgigs",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/2/24",
     appliedAt: "7/1/24",
     salary: {
       min: 120000,
@@ -66,7 +157,8 @@ export const applications: Application[] = [
     notes:
       "found on https://news.ycombinator.com/item?id=40846428; asked for 115-140k",
     website: "https://boards.greenhouse.io/meaningfulgigs",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/2/24",
     appliedAt: "7/1/24",
     salary: {
       min: 115000,
@@ -125,7 +217,8 @@ export const applications: Application[] = [
     role: "Software Engineer, Customer Studio Backend",
     notes: "found on https://news.ycombinator.com/item?id=40846428",
     website: "https://boards.greenhouse.io/hightouch/jobs/4782625004",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/2/24",
     appliedAt: "7/1/24",
     salary: {
       min: 170000,
@@ -1363,8 +1456,9 @@ export const applications: Application[] = [
     role: "Software Enginer (L2)",
     website:
       "https://www.commitasync.com/jobs/software-engineer-l2-twilio-1718776216572/",
-    status: "Applied",
+    status: "Rejected",
     appliedAt: "6/21/24",
+    rejectedAt: "7/2/24",
     salary: {
       min: 112000,
       max: 140000,
@@ -3161,7 +3255,8 @@ export const applications: Application[] = [
     foundAt: "wellfound",
     role: "Software Engineer",
     website: "https://abnormalsecurity.com/",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/2/24",
     appliedAt: "5/21/24",
   },
   {
