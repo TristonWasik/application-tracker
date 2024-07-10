@@ -5,6 +5,7 @@ const foundAtOptions = [
   "commitasync",
   "wellfound",
   "direct",
+  "roberthalf",
 ] as const;
 export type foundAt = (typeof foundAtOptions)[number];
 
