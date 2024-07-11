@@ -2,6 +2,105 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Team Remotely Inc",
+    foundAt: "direct",
+    role: "Full-Stack Engineer",
+    website:
+      "https://teamremotely.zohorecruit.eu/jobs/Careers/64526000084206326/Full-Stack-Engineer?source=LinkedIn-Basic&embedsource=LinkedIn%2BLimited%2BListings",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 58000,
+      max: 68000,
+    },
+  },
+  {
+    name: "Enexus Global Inc.",
+    foundAt: "linkedin",
+    role: "NodeJS Developer",
+    website: "https://www.linkedin.com",
+    notes: "asked for 130k",
+    status: "Applied",
+    appliedAt: "7/10/24",
+  },
+  {
+    name: "Anatta",
+    foundAt: "linkedin",
+    role: "Back End Developer",
+    website: "https://www.linkedin.com",
+    notes: "asked for 130k",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 80000,
+      max: 160000,
+    },
+  },
+  {
+    name: "Summit Group Solutions, LLC",
+    foundAt: "linkedin",
+    role: "Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 130000,
+      max: 150000,
+    },
+  },
+  {
+    name: "Taskrabbit",
+    foundAt: "linkedin",
+    role: "Software Engineer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 96000,
+      max: 134000,
+    },
+  },
+  {
+    name: "Dexian",
+    foundAt: "linkedin",
+    role: "Fullstack developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/10/24",
+  },
+  {
+    name: "Relate Search",
+    foundAt: "linkedin",
+    role: "Software Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/10/24",
+  },
+  {
+    name: "LSAT Demon",
+    foundAt: "linkedin",
+    role: "Back End Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 150000,
+      max: 250000,
+    },
+  },
+  {
+    name: "Imply",
+    foundAt: "direct",
+    role: "Senior Software Engineer",
+    website: "https://imply.io/positions/?gh_jid=6043062003",
+    status: "Applied",
+    appliedAt: "7/10/24",
+    salary: {
+      min: 90000,
+      max: 225000,
+    },
+  },
+  {
     name: "Harnham",
     foundAt: "linkedin",
     role: "Full-stack/Product Engineer",
@@ -381,7 +480,8 @@ export const applications: Application[] = [
     foundAt: "direct",
     role: "Software Engineer",
     website: "https://imply.io/positions/?gh_jid=6044976003",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/10/24",
     appliedAt: "7/8/24",
     salary: {
       min: 80000,
@@ -2319,7 +2419,8 @@ export const applications: Application[] = [
     role: "Senior Software Engineer II (Mobile + Web)",
     website:
       "https://www.commitasync.com/jobs/senior-software-engineer-ii-mobile-web-spring-health-1718257849732/",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/9/24",
     appliedAt: "6/19/24",
   },
   {
@@ -3269,7 +3370,8 @@ export const applications: Application[] = [
     foundAt: "commitasync",
     role: "Software Engineer II, Data Infrastructure",
     website: "https://boards.greenhouse.io/khanacademy/jobs/6005599",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/9/24",
     appliedAt: "6/10/24",
   },
   {
@@ -3277,7 +3379,8 @@ export const applications: Application[] = [
     foundAt: "indeed",
     role: "Sr Software Engineer - Frontend",
     website: "https://www.indeed.com",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/9/24",
     appliedAt: "6/10/24",
   },
   {
