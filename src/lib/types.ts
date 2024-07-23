@@ -6,6 +6,8 @@ const foundAtOptions = [
   "wellfound",
   "direct",
   "roberthalf",
+  "calmjobs",
+  "workatastartup",
 ] as const;
 export type foundAt = (typeof foundAtOptions)[number];
 
@@ -20,7 +22,7 @@ export type Application = {
   interviewedAt?: string;
   rejectedAt?: string;
   acceptedAt?: string;
-  notes?: string;
+  notes?: string | string[];
   salary?: {
     min: number;
     max: number;
