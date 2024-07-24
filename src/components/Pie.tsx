@@ -7,6 +7,7 @@ const COLORS = {
   Rejected: "#c53030",
   Default: "#2b6cb0",
   Assessment: "#2c7a7b",
+  "Pending Interview": "#5aaca0",
 };
 
 /**
@@ -44,6 +45,9 @@ export default function PieChartComponent() {
                   break;
                 case "Assessment":
                   color = COLORS.Assessment;
+                  break;
+                case "Pending Interview":
+                  color = COLORS["Pending Interview"];
                   break;
                 default:
                   color = COLORS.Default;

@@ -8,8 +8,48 @@ const foundAtOptions = [
   "roberthalf",
   "calmjobs",
   "workatastartup",
+  "greenhouse",
+  "lever",
 ] as const;
 export type foundAt = (typeof foundAtOptions)[number];
+
+export const jobBoardOptions = [
+  {
+    name: "Greenhouse",
+    url: "https://boards.greenhouse.io",
+    searchTerm: "boards.greenhouse.io",
+  },
+  {
+    name: "Lever",
+    url: "https://jobs.lever.co",
+    searchTerm: "jobs.lever.co",
+  },
+  {
+    name: "Linkedin",
+    url: "https://www.linkedin.com",
+    searchTerm: "linkedin.com",
+  },
+  {
+    name: "Indeed",
+    url: "https://www.indeed.com",
+    searchTerm: "indeed.com",
+  },
+  {
+    name: "CommitAsync",
+    url: "https://www.commitasync.com",
+    searchTerm: "commitasync.com",
+  },
+  {
+    name: "Wellfound",
+    url: "https://wellfound.com",
+    searchTerm: "wellfound.com",
+  },
+  {
+    name: "Robert Half",
+    url: "https://www.roberthalf.com",
+    searchTerm: "roberthalf.com",
+  },
+];
 
 export type Application = {
   name: string;
@@ -29,10 +69,12 @@ export type Application = {
   };
 };
 
-const statusOptions = [
+export const statusOptions = [
   "Applied",
   "Rejected",
   "Interviewed",
+  "Pending Interview",
+  "Pending Technical Interview",
   "Assessment",
   "Offer",
   "Accepted",

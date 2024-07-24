@@ -38,11 +38,22 @@ export const columns: ColumnDef<Application>[] = [
           classes =
             "outline text-teal-700 outline-teal-700 font-semibold rounded-md p-1 bg-teal-200/10";
           break;
+        case "Pending Interview":
+          classes =
+            "outline text-[#5aaca0] outline-[#5aaca0] font-semibold rounded-md p-1 bg-[#5aaca0]/10";
+          break;
         default:
           classes =
             "outline text-blue-700 outline-blue-700 font-semibold rounded-md p-1 bg-blue-200/10";
       }
       return <span className={classes}>{status}</span>;
+    },
+    filterFn: (row, columnId, filterValue) => {
+      // if our filter is not an object (which includes arrays) then just return all data
+      if (typeof filterValue !== "object") return true;
+
+      // return true if the current row's status value includes one of the statuses in our filterValue array
+      return (filterValue as string[]).includes(row.getValue<string>(columnId));
     },
   },
   {

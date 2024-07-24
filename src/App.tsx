@@ -19,15 +19,21 @@ function App() {
         </a>
         <ModeToggle />
       </nav>
-      <main className="flex flex-col m-auto">
-        <div className="flex items-center gap-20 justify-center">
+      <main className="flex flex-col w-[100vw] md:w-[70vw] m-auto">
+        <div className="flex sm:hidden p-2 mb-4">
+          <p className="outline outline-purple-600 p-2 rounded-md bg-purple-300/20">
+            Note: Some data visualizations are hidden due to your screen size.
+            Please use a larger device to see more data visualizations.
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row items-center gap-20 justify-center">
           <AppCounter />
           <PieChartComponent />
         </div>
-        <div className="flex items-center justify-center mt-8">
+        <div className="hidden sm:flex items-center justify-center mt-8">
           <LineChartComponent />
         </div>
-        <div className="flex items-center justify-center mt-8">
+        <div className="hidden sm:flex items-center justify-center mt-8">
           <BarChartComponent />
         </div>
         <ApplicationsTable />

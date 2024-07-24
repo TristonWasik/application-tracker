@@ -13,6 +13,9 @@ export const BuildDataFromApplications = (): {
   const Interviews = applications.filter(
     (f) => f.status === "Interviewed"
   ).length;
+  const PendingInterview = applications.filter(
+    (f) => f.status === "Pending Interview"
+  ).length;
   const Accepted = applications.filter((f) => f.status === "Accepted").length;
   const Rejections = applications.filter((f) => f.status === "Rejected").length;
   const NoResponses = applications.filter((f) => f.status === "Applied").length;
@@ -26,7 +29,14 @@ export const BuildDataFromApplications = (): {
       ["Rejected", Rejections],
       ["Assessment", Assessments],
       ["Interviewed", Interviews],
+      ["Pending Interview", PendingInterview],
       ["Accepted", Accepted],
     ],
   };
+};
+
+export const googleQueryUrl = (
+  query: string = `site:boards.greenhouse.io united states intext:"apply" (intext:"Software Engineer" OR intext:"Software Developer")`
+) => {
+  return "https://www.google.com/search?q=" + query.replace(/\s/g, "+");
 };

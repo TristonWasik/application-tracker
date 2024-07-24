@@ -80,7 +80,7 @@ export const applications: Application[] = [
     role: "Software Support Engineer",
     notes: "asked for 100k",
     website: "https://jobs.jobvite.com/tylertech/job/o6xCtfws/",
-    status: "Applied",
+    status: "Pending Interview",
     appliedAt: "7/23/24",
   },
   {
@@ -3598,7 +3598,8 @@ export const applications: Application[] = [
     foundAt: "direct",
     role: "Cloud Software Engineer, Developer Productivity- Remote",
     website: "https://clickhouse.com/company/careers",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/23/24",
     appliedAt: "6/11/24",
   },
   {
