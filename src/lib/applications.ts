@@ -6,8 +6,13 @@ export const applications: Application[] = [
     foundAt: "indeed",
     role: "Software Developer Team Lead",
     website: "https://lifetime.applicantpro.com/jobs/3436769-143932",
-    status: "Applied",
+    status: "Pending Technical Interview",
+    notes: [
+      "mary dow reached out on 7/24 via text, i called and scheduled an interview with Steve the hiring manager on 7/26 at 1pm. its the same location from the email from last time, building d12. parking is on north side of lot",
+      "I met with Steve, the head of engineering (i think that is his title). culture interview went well, they want to schedule a screening next week before end of July; highest they can budget is 80k-ish",
+    ],
     appliedAt: "7/23/24",
+    interviewedAt: "7/26/24",
   },
   {
     name: "Modern Technology Solutions, Inc.",
@@ -78,10 +83,14 @@ export const applications: Application[] = [
     name: "Tyler Technologies",
     foundAt: "direct",
     role: "Software Support Engineer",
-    notes: "asked for 100k",
     website: "https://jobs.jobvite.com/tylertech/job/o6xCtfws/",
+    notes: [
+      "asked for 100k",
+      "preliminary interview went well. their position budget is 85k-ish due to low experience",
+    ],
     status: "Pending Interview",
     appliedAt: "7/23/24",
+    interviewedAt: "7/26/24",
   },
   {
     name: "Experian",
@@ -527,7 +536,8 @@ export const applications: Application[] = [
     foundAt: "direct",
     role: "Software Engineer",
     website: "https://boards.greenhouse.io/breezeairways/jobs/6046143003",
-    status: "Applied",
+    status: "Assessment",
+    assessmentAt: "7/26/24",
     appliedAt: "7/9/24",
     salary: {
       min: 100000,
@@ -2917,7 +2927,8 @@ export const applications: Application[] = [
     foundAt: "linkedin",
     role: "Software Enginer (Core) (Remote)",
     website: "https://www.linkedin.com",
-    status: "Applied",
+    status: "Rejected",
+    rejectedAt: "7/3/24",
     appliedAt: "6/19/24",
   },
   {
