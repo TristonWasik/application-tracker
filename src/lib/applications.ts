@@ -2,6 +2,30 @@ import { Application } from "./types";
 
 export const applications: Application[] = [
   {
+    name: "Piper Companies",
+    foundAt: "linkedin",
+    role: "REMOTE Full Stack Javascript Developer",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/28/24",
+    salary: {
+      min: 100000,
+      max: 120000,
+    },
+  },
+  {
+    name: "Included Health",
+    foundAt: "linkedin",
+    role: "Software Engineer II, Data Platform",
+    website: "https://www.linkedin.com",
+    status: "Applied",
+    appliedAt: "7/28/24",
+    salary: {
+      min: 110300,
+      max: 197000,
+    },
+  },
+  {
     name: "Lifetime Products, Inc.",
     foundAt: "indeed",
     role: "Software Developer Team Lead",
